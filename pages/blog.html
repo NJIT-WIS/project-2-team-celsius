@@ -9,21 +9,38 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <!-- Core theme CSS (includes Bootstrap)-->
     <link rel="stylesheet" href="../styles/basic.css" data-n-g="">
+    <!-- React.js-->
+    <link rel="react.js" href="index.js">
 </head>
 <body>
   <!-- Navigation-->
-    <nav class="navbar navbar-light bg-light static-top">
-        <div class="container">
-            <a class="navbar-brand" href="/">
-                <img src="/static/butternut/assets/images/logo/logo-text.png" class="desktop" alt="Logo">
-                <img src="/static/butternut/assets/images/logo/logo.png" class="mobile" alt="Logo">
-                <!--  <img src="/static/butternut/assets/images/logo/white-logo.svg" alt="Logo"> -->
-            </a>
-            <a class="navbar-brand" href="#!">My WebClass</a>
-            <!-- <a class="btn btn-primary blue-button" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/pritika-m/30min'});return false;">Go Live!</a> -->
-            <a class="btn btn-primary blue-button" data-bs-toggle="modal" data-bs-target="#goLiveModal">Sign Up</a>
+    <header class="p-3 text-bg-dark">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use href="#"></use></svg>
+            <span class="fs-4">My WebClass</span>
+        </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+          <li><a href="#" class="nav-link px-2 text-gray">Features</a></li>
+          <li><a href="#" class="nav-link px-2 text-gray">Pricing</a></li>
+          <li><a href="#" class="nav-link px-2 text-gray">Blog</a></li>
+          <li><a href="#" class="nav-link px-2 text-gray">About Us</a></li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+          <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+        </form>
+
+        <div class="text-end">
+          <button type="button" class="btn btn-outline-light me-2">Login</button>
+          <button type="button" class="btn btn-warning">Sign-up</button>
         </div>
-    </nav>
+      </div>
+    </div>
+  </header>
 
   <!-- Pricing-->
   <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
@@ -79,6 +96,49 @@
       </div>
     </div>
   </div>
+
+  <!--FAQs-->
+  <div class="container p-8 mx-auto xl:px-0 flex w-full flex-col mt-4 items-center justify-center text-center">
+    <div class="text-sm font-bold tracking-wider text-indigo-600 uppercase">FAQ</div>
+    <h2 class="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">Frequently Asked Questions</h2>
+    <p class="max-w-2xl py-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300">Answer your customers possible questions here, it will increase the conversion rate as well as support or chat requests.</p>
+  </div>
+
+  <div class="container p-8 mx-auto xl:px-0 !p-0">
+    <div class="w-full max-w-2xl p-2 mx-auto rounded-2xl">
+      <div class="mb-5">
+        <button class="flex items-center justify-between w-full px-4 py-4 text-lg text-left text-gray-800 rounded-lg bg-gray-50 hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-indigo-100 focus-visible:ring-opacity-75 dark:bg-trueGray-800 dark:text-gray-200" id="headlessui-disclosure-button-3" type="button">
+          <span>Is this template completely free to use?</span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class=" w-5 h-5 text-indigo-500">
+            <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="mb-5">
+        <button class="flex items-center justify-between w-full px-4 py-4 text-lg text-left text-gray-800 rounded-lg bg-gray-50 hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-indigo-100 focus-visible:ring-opacity-75 dark:bg-trueGray-800 dark:text-gray-200" id="headlessui-disclosure-button-5" type="button">
+          <span>Can I use it in a commercial project?</span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class=" w-5 h-5 text-indigo-500">
+            <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="mb-5">
+        <button class="flex items-center justify-between w-full px-4 py-4 text-lg text-left text-gray-800 rounded-lg bg-gray-50 hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-indigo-100 focus-visible:ring-opacity-75 dark:bg-trueGray-800 dark:text-gray-200" id="headlessui-disclosure-button-7" type="button">
+          <span>What is your refund policy? </span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class=" w-5 h-5 text-indigo-500">
+            <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="mb-5"><button class="flex items-center justify-between w-full px-4 py-4 text-lg text-left text-gray-800 rounded-lg bg-gray-50 hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-indigo-100 focus-visible:ring-opacity-75 dark:bg-trueGray-800 dark:text-gray-200" id="headlessui-disclosure-button-9" type="button">
+        <span>Do you offer technical support? </span>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class=" w-5 h-5 text-indigo-500"><path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd"></path>
+        </svg>
+      </button>
+      </div>
+    </div>
+  </div>
+
   <!-- Footer-->
 ``<div class="container">
     <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
