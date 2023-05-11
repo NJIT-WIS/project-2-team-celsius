@@ -182,7 +182,6 @@
 </section>
 
 <!-- Go Live Modal -->
-<!-- Go Live Modal -->
 <div class="modal fade goLiveModal" tabindex="-1" role="dialog" aria-labelledby="goLiveModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
@@ -315,6 +314,7 @@
        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
    </style>
+</head>
 
 <section class="call-to-action text-white text-center" style="background: url('https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=Mnw0MjkyMDl8MHwxfHNlYXJjaHw4fHxSZWFsJTIwRXN0YXRlfGVufDB8fHx8MTY4MTM4Mjg3Mg&amp;ixlib=rb-4.0.3&amp;q=85') no-repeat center center" id="signup">
 <div style="text-align: center;">
@@ -334,97 +334,99 @@
    </label>
        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
        <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+</div>
+   <div id="mce-responses" class="clear foot">
+       <div class="response" id="mce-error-response" style="display:none"></div>
+       <div class="response" id="mce-success-response" style="display:none"></div>
    </div>
-       <div id="mce-responses" class="clear foot">
-           <div class="response" id="mce-error-response" style="display:none"></div>
-           <div class="response" id="mce-success-response" style="display:none"></div>
-       </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-       <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_aa7ca102b4c89f92b883ad462_ca8ca63fcb" tabindex="-1" value=""></div>
-           <div class="optionalParent">
-               <div class="clear foot">
-                   <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-                   <p class="brandingLogo"><a href="http://eepurl.com/iq4ddc" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a></p>
-               </div>
-           </div>
+   <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+   <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_aa7ca102b4c89f92b883ad462_ca8ca63fcb" tabindex="-1" value=""></div>
+   <div class="optionalParent">
+       <div class="clear foot">
+           <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+           <p class="brandingLogo"><a href="http://eepurl.com/iq4ddc" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a></p>
        </div>
-   </form>
    </div>
-   <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS
-<!-- End -->
+</div>
+</form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+<script type='text/javascript'>
+(function($) {
+    window.fnames = new Array();
+    window.ftypes = new Array();
+    fnames[0]='EMAIL';
+    ftypes[0]='email';
+    fnames[1]='FNAME';
+    ftypes[1]='text';
+    fnames[2]='LNAME';
+    ftypes[2]='text';
+    fnames[3]='ADDRESS';
+</script>
+</section>
 
 <!-- Footer -->
-   < div
-   className = "container" >
-       < footer
-   className = "row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top" >
-       < div
-   className = "col mb-3" >
-       < a
-   href = "/"
-   className = "d-flex align-items-center mb-3 link-body-emphasis text-decoration-none" >
-       < svg
-   className = "bi me-2"
-   width = "40"
-   height = "32" > < use
-   xlink:href = "#bootstrap" > < /use></s
-   vg >
-   < /a>
-   <p className="text-body-secondary"> 2023 © MyWebClass</p>
-   <p>All rights reserved.</p>
+<div className="container">
+  <footer className="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+    <div className="col mb-3">
+      <a href="/" className="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+        <svg className="bi me-2" width="40" height="32">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+      </a>
+      <p className="text-body-secondary">2023 © MyWebClass</p>
+      <p>All rights reserved.</p>
+    </div>
+
+    <div className="col mb-3">
+
+    </div>
+
+    <div className="col mb-3">
+      <h5>Section</h5>
+      <ul className="nav flex-column">
+        <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Home</a></li>
+        <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">About Us</a></li>
+        <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Contact</a></li>
+      </ul>
+    </div>
+
+    <div className="col mb-3">
+      <h5>Section</h5>
+      <ul className="nav flex-column">
+        <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Facebook</a></li>
+        <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Instagram</a></li>
+        <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">LinkedIn</a></li>
+        <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Twitter</a></li>
+      </ul>
+    </div>
+
+    <div className="col mb-3">
+      <h5>Section</h5>
+      <ul className="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Privacy Policy</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Terms of Service</a></li>
+      </ul>
+    </div>
+  </footer>
 </div>
 
-   <div className="col mb-3">
-
-   </div>
-
-   <div className="col mb-3">
-       <h5>Section</h5>
-       <ul className="nav flex-column">
-           <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Home</a></li>
-           <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">About Us</a></li>
-           <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Contact</a></li>
-       </ul>
-   </div>
-
-   <div className="col mb-3">
-       <h5>Section</h5>
-       <ul className="nav flex-column">
-           <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Facebook</a></li>
-           <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Instagram</a></li>
-           <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">LinkedIn</a></li>
-           <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Twitter</a></li>
-       </ul>
-   </div>
-
-   <div className="col mb-3">
-       <h5>Section</h5>
-       <ul className="nav flex-column">
-<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Privacy Policy</a></li>
-                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Terms of Service</a></li>
-                  </ul>
-              </div>
-          </footer>
-      </div>
-          <!-- Bootstrap core JS-->
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-          <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-          <script>
-              $(document).ready(function(){
-                  $(window).scroll(function() {
-                      $(".slideanim").each(function(){
-                          var pos = $(this).offset().top;
-
-
-
-
-                          var winTop = $(window).scrollTop();
-                          if (pos < winTop + 600) {
-                              $(this).addClass("slide");
-                          }
-                      });
-                  });
-              })
-          </script>
-      </body>
+<!-- Bootstrap core JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(window).scroll(function() {
+            $(".slideanim").each(function(){
+                var pos = $(this).offset().top;
+                var winTop = $(window).scrollTop();
+                if (pos < winTop + 600) {
+                    $(this).addClass("slide");
+                }
+            });
+        });
+    });
+</script>
+</body>
 </html>
