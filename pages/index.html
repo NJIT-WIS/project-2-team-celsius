@@ -1,451 +1,490 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <title>My WebClass</title>
-   <!-- Bootstrap icons-->
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css">
-   <!-- Google fonts-->
-   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-   <!-- Core theme CSS (includes Bootstrap)-->
-   <link rel="stylesheet" href="../styles/basic.css">
-   <!--Global site tag (gtag.js) - Google Analytics -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=G-3CCVGS2WL1"></script>
-   <script>
-       window.dataLayer = window.dataLayer || [];
-       function gtag(){dataLayer.push(arguments);}
-       gtag('js', new Date());
+  <meta charset="UTF-8">
+  <title>My WebClass</title>
+  <!-- Bootstrap icons-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css">
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link rel="stylesheet" href="../styles/basic.css">
+  <!--Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3CCVGS2WL1"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
 
-       gtag('config', 'G-3CCVGS2WL1');
-   </script>
-   <!-- Custom Style -->
-   <link rel="stylesheet" type="text/css" href="style.css">
-   <!-- Star ratings CSS -->
-   <style>
-       .star-rating {
-           font-size: 1.5rem;
-           color: #FFC107;
-           display: inline-block;
-           vertical-align: middle;
-       }
-       .star-rating input[type="radio"] {
-           display: none;
-       }
-       .star-rating label {
-           display: inline-block;
-           cursor: pointer;
-           padding: 0 0.25rem;
-       }
-       .star-rating label:before {
-           content: "\2605";
-       }
-       .star-rating input[type="radio"]:checked ~ label:before {
-           content: "\2605";
-       }
-   </style>
+
+
+      gtag('config', 'G-3CCVGS2WL1');
+  </script>
+  <!-- Custom Style -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Star ratings CSS -->
+  <style>
+      .star-rating {
+          font-size: 1.5rem;
+          color: #FFC107;
+          display: inline-block;
+          vertical-align: middle;
+      }
+      .star-rating input[type="radio"] {
+          display: none;
+      }
+      .star-rating label {
+          display: inline-block;
+          cursor: pointer;
+          padding: 0 0.25rem;
+      }
+      .star-rating label:before {
+          content: "\2605";
+      }
+      .star-rating input[type="radio"]:checked ~ label:before {
+          content: "\2605";
+      }
+  </style>
 </head>
+
 
 <!-- Navigation-->
 <header class="p-3 text-bg-dark">
-   <div class="container position-relative">
-       <div class="d-flex flex-wrap align-items-center justify-content-between justify-content-lg-start">
-           <a href="https://ibb.co/c6DN9xp">
-               <img src="https://i.ibb.co/R3zCK7M/mywebclass.jpg" alt="mywebclass" width="300" height="200">
-           </a>
-
-           <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-               <li><a href="index.html" class="nav-link px-2 text-gray">Home</a></li>
-               <li><a href="index.html" class="nav-link px-2 text-gray">Features</a></li>
-               <li><a href="index.html" class="nav-link px-2 text-gray">Blog</a></li>
-               <li><a href="index.html" class="nav-link px-2 text-gray">About Us</a></li>
-           </ul>
-
-           <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-               <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
-           </form>
+  <div class="container position-relative">
+      <div class="d-flex flex-wrap align-items-center justify-content-between justify-content-lg-start">
+          <a href="https://ibb.co/c6DN9xp">
+              <img src="https://i.ibb.co/R3zCK7M/mywebclass.jpg" alt="mywebclass" width="300" height="200">
+          </a>
 
 
-           <div class="text-end d-flex justify-content-end mt-3">
-               <button type="button" class="btn btn-outline-light me-2">Login</button>
-               <button type="button" class="btn btn-warning">Sign-up</button>
-           </div>
-       </div>
-   </div>
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="index.html" class="nav-link px-2 text-gray">Home</a></li>
+              <li><a href="index.html" class="nav-link px-2 text-gray">Features</a></li>
+              <li><a href="index.html" class="nav-link px-2 text-gray">Blog</a></li>
+              <li><a href="index.html" class="nav-link px-2 text-gray">About Us</a></li>
+          </ul>
+
+
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+              <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+          </form>
+
+
+
+
+          <div class="text-end d-flex justify-content-end mt-3">
+              <button type="button" class="btn btn-outline-light me-2">Login</button>
+              <button type="button" class="btn btn-warning">Sign-up</button>
+          </div>
+      </div>
+  </div>
 </header>
+
 
 <!-- Masthead-->
 <header>
-   <div class="container">
-   <div class="row justify-content-center align-items-center">
-       <div class="col-lg-12">
-           <div class="text-center text-black">
-               <!-- Page heading-->
-               <div class="container rounded" element-id="headline">
-                   <a href="https://ibb.co/DrxKW8g">
-                       <img src="https://i.ibb.co/Sfhvyd7/classroom.jpg" alt="classroom" border="0" class="img-fluid" />
-                   </a>
-                   <div class="position-absolute w-100 h-100 d-flex flex-column justify-content-center text-white" style="background-color: rgba(0,0,0,0.5); z-index: 2;">
-                       <h1 id="headline" class="mb-5">Empowering the Future of Education.</h1>
-                       <div class="container rounded" element-id="description">
-                           <p id="description" class="lead mb-4">"Stay ahead of the curve with AI-Driven Agile and Lean Education Insights"</p>
-                           <div class="col-auto">
-                               <button class="btn btn-primary btn-lg" class="submitButton" type="submit" onclick="document.getElementById('contact').scrollIntoView();">See How It Works</button>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-               <div class="divider"></div>
-           </div>
-       </div>
-   </div>
+  <div class="container position-relative">
+  <div class="row justify-content-center align-items-center">
+      <div class="col-lg-12">
+          <div class="text-center text-black">
+              <!-- Page heading-->
+              <div class="container rounded" element-id="headline" style="height: 500px; position: relative;">
+                  <a href="https://ibb.co/DrxKW8g">
+                      <img src="https://i.ibb.co/Sfhvyd7/classroom.jpg" alt="classroom" border="0"style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 95%; height: 100%;" />
+                  </a>
+                  <div class="position-absolute w-100 h-100 d-flex flex-column justify-content-center text-white" style="background-color: rgba(0,0,0,0.5); z-index: 2;">
+                      <h1 id="headline" class="mb-5">Empowering the Future of Education.</h1>
+                      <div class="container rounded" element-id="description">
+                          <p id="description" class="lead mb-4">"Stay ahead of the curve with AI-Driven Agile and Lean Education Insights"</p>
+                          <div class="col-auto">
+                              <button class="btn btn-primary btn-lg" class="submitButton" type="submit" onclick="document.getElementById('contact').scrollIntoView();">See How It Works</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
 </div>
 </header>
 
+
 <section>
-   <div class="container">
-       <div class="row justify-content-center align-items-center">
-           <div class="col-lg-12">
-               <div class="text-center text-black">
-                   <div class="divider"></div>
-                   <h2>Trusted by Individuals, Teams, and Educators at the World's BEST Companies and Schools</h2>
-                   <div class="divider"></div>
-               </div>
-           </div>
-       </div>
-   </div>
+  <div class="container position-relative">
+      <div class="row justify-content-center align-items-center">
+          <div class="col-lg-12">
+              <div class="text-center text-black">
+                  <hr>
+                  <h2>Trusted by Individuals, Teams, and Educators at the World's BEST Companies and Schools</h2>
+                  <hr>
+              </div>
+          </div>
+      </div>
+  </div>
 </section>
 
 
+
+
 <main>
-   <!-- ProductHunt Modal -->
-   <div class="modal fade" id="productHuntModal" tabindex="-1" aria-labelledby="productHuntModalLabel" style="display: none;" aria-hidden="true">
-       <div class="modal-dialog modal-dialog-centered" role="document">
-           <div class="modal-content">
-               <div class="modal-header">
-                   <h5 class="modal-title" id="productHuntModalLabel">Upvote us on Product Hunt</h5>
-                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                       <!-- <span aria-hidden="true">&times;</span> -->
-                   </button>
-               </div>
-               <div class="modal-body">
-                   <div class="text-center mt-3">
-                       <a href="https://www.producthunt.com/posts/butternut-ai-beta?utm_source=badge-featured&amp;utm_medium=badge&amp;utm_souce=badge-butternut-ai-beta" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=386860&amp;theme=light" alt="Butternut AI Beta - Build websites instantly using generative AI | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54"></a>
-                   </div>
-               </div>
-               <!-- <div class="modal-footer">
-                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                 <button type="button" class="btn btn-primary">Save changes</button>
-               </div> -->
-           </div>
-       </div>
-   </div>
+  <!-- ProductHunt Modal -->
+  <div class="modal fade" id="productHuntModal" tabindex="-1" aria-labelledby="productHuntModalLabel" style="display: none;" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="productHuntModalLabel">Upvote us on Product Hunt</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                      <!-- <span aria-hidden="true">&times;</span> -->
+                  </button>
+              </div>
+              <div class="modal-body">
+                  <div class="text-center mt-3">
+                      <a href="https://www.producthunt.com/posts/butternut-ai-beta?utm_source=badge-featured&amp;utm_medium=badge&amp;utm_souce=badge-butternut-ai-beta" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=386860&amp;theme=light" alt="Butternut AI Beta - Build websites instantly using generative AI | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54"></a>
+                  </div>
+              </div>
+              <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div> -->
+          </div>
+      </div>
+  </div>
+
+
 
 
 <!-- Include Features -->
 <!-- Image Showcases-->
 <section class="showcase">
-   <div class="container-fluid p-0">
-       <div class="row g-0 slideanim slide">
-           <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('../mywebclass_images/work.jpeg')"></div>
-           <div class="col-lg-6 order-lg-1 my-auto showcase-text rounded" element-id="features_1_title">
-               <h2 id="features_1_title">MyWebClass.org aims to revolutionize education by incorporating Agile and Lean principles into the classroom.</h2>
-               <p id="features_1_description" class="lead mb-0">Join our community and experience the benefits today!</p>
-               <a class="btn btn-primary blue-button" data-bs-toggle="modal" data-bs-target="#goLiveModal">Try for Free</a>
-           </div>
-       </div>
-       <div class="row g-0 slideanim slide">
-           <div class="col-lg-6 order-lg-3 text-white showcase-img" style="background-image: url('../mywebclass_images/data.jpeg')"></div>
-           <div class="col-lg-6 order-lg-4 my-auto showcase-text rounded" element-id="features_2_title">
-               <h2 id="features_2_title">All your work is safe with us</h2>
-               <p id="features_2_description" class="lead mb-0">We take your data security seriously, which is why we use advanced encryption protocols to protect your files in the cloud. Your data is safe and secure with us. </p>
-               <a class="btn btn-primary gray-button" data-bs-toggle="modal" data-bs-target="#goLiveModal">Try now</a>
-           </div>
-       </div>
-       <div class="row g-0 slideanim slide">
-           <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('../mywebclass_images/VAR.jpg')"></div>
-           <div class="col-lg-6 order-lg-1 my-auto showcase-text rounded" element-id="features_2_title">
-               <h2 id="features_2_title">Our Role in Education </h2>
-               <p id="features_2_description" class="lead mb-0">Through research, resource development,professional development opportunities, and collaborations with schools and educators, MyWebClass.org can help create a more flexible, student-centered learning environment that promotes critical thinking, problem-solving, and collaboration. </p>
-           </div>
-       </div>
+  <div class="container-fluid p-0">
       <div class="row g-0 slideanim slide">
-   <div class="col-lg-6 order-lg-3 text-white showcase-img" style="background-image: url('../mywebclass_images/glasses.jpg')"></div>
-   <div class="col-lg-6 order-lg-4 my-auto showcase-text rounded" element-id="features_2_title">
-       <h2 id="features_2_title">Resources</h2>
-       <hr>
-       <p id="features_2_description" class="lead mb-0">Overview of professional development opportunities</p>
-       <hr>
-       <p id="features_2_description" class="lead mb-0">Downloadable guides, templates, and infographics</p>
-       <hr>
-       <p id="features_2_description" class="lead mb-0">Webinar, recordings, and workshop information</p>
-       <hr>
-       <a class="btn btn-primary blue-button" data-bs-toggle="modal" data-bs-target="#goLiveModal">Sign up now</a>
-   </div>
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('../mywebclass_images/work.jpeg')"></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text rounded" element-id="features_1_title">
+              <h2 id="features_1_title">MyWebClass.org aims to revolutionize education by incorporating Agile and Lean principles into the classroom.</h2>
+              <p id="features_1_description" class="lead mb-0">Join our community and experience the benefits today!</p>
+              <a class="btn btn-primary blue-button" data-bs-toggle="modal" data-bs-target="#goLiveModal">Try for Free</a>
+          </div>
+      </div>
+      <div class="row g-0 slideanim slide">
+          <div class="col-lg-6 order-lg-3 text-white showcase-img" style="background-image: url('../mywebclass_images/data.jpeg')"></div>
+          <div class="col-lg-6 order-lg-4 my-auto showcase-text rounded" element-id="features_2_title">
+              <h2 id="features_2_title">All your work is safe with us</h2>
+              <p id="features_2_description" class="lead mb-0">We take your data security seriously, which is why we use advanced encryption protocols to protect your files in the cloud. Your data is safe and secure with us. </p>
+              <a class="btn btn-primary gray-button" data-bs-toggle="modal" data-bs-target="#goLiveModal">Try now</a>
+          </div>
+      </div>
+      <div class="row g-0 slideanim slide">
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('../mywebclass_images/VAR.jpg')"></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text rounded" element-id="features_2_title">
+              <h2 id="features_2_title">Our Role in Education </h2>
+              <p id="features_2_description" class="lead mb-0">Through research, resource development,professional development opportunities, and collaborations with schools and educators, MyWebClass.org can help create a more flexible, student-centered learning environment that promotes critical thinking, problem-solving, and collaboration. </p>
+          </div>
+      </div>
+     <div class="row g-0 slideanim slide">
+  <div class="col-lg-6 order-lg-3 text-white showcase-img" style="background-image: url('../mywebclass_images/glasses.jpg')"></div>
+  <div class="col-lg-6 order-lg-4 my-auto showcase-text rounded" element-id="features_2_title">
+      <h2 id="features_2_title">Resources</h2>
+      <hr>
+      <p id="features_2_description" class="lead mb-0">Overview of professional development opportunities</p>
+      <hr>
+      <p id="features_2_description" class="lead mb-0">Downloadable guides, templates, and infographics</p>
+      <hr>
+      <p id="features_2_description" class="lead mb-0">Webinar, recordings, and workshop information</p>
+      <hr>
+      <a class="btn btn-primary blue-button" data-bs-toggle="modal" data-bs-target="#goLiveModal">Sign up now</a>
+  </div>
 </div>
 </section>
 
 
+
+
 <!-- Go Live Modal -->
-   <div class="modal fade" class="goLiveModal" tabindex="-1" role="dialog" aria-labelledby="goLiveModalLabel" aria-hidden="true">
-       <div class="modal-dialog modal-dialog-centered" role="document">
-           <div class="modal-content">
-               <div class="modal-header">
-                   <h5 class="modal-title" id="goLiveModal">Go Live!</h5>
-                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                       <!-- <span aria-hidden="true">&times;</span> -->
-                   </button>
-               </div>
-               <div class="modal-body">
-
-
-                   <div id="goLiveFormBody">
-                       Enter your email address and we will get back to you with next steps.
-                       <form id="goLiveSubscribeForm" class="mt-3" action="#" method="post" onsubmit="submitGoLiveSubscribeForm(event)" data-sb-form="">
-                           <div class="row">
-                               <div class="col">
-                                   <input class="form-control" id="goLiveSubscribeEmailAddress" name="email" type="email" placeholder="Email Address" data-sb-validations="required,email">
-                                   <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:required">Email Address is required.</div>
-                                   <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:email">Email Address is not valid.</div>
-                               </div>
-                               <div class="col-auto"><button class="btn btn-primary blue-button" class="submitButton" type="submit">Subscribe</button>
-                               </div>
-                           </div>
-                           <div class="d-none" id="goLiveSuccessMessage">
-                               <div class="text-center mb-3">
-                                   <div class="fw-bolder">Subscribed Successfully!</div>
-                               </div>
-                           </div>
-                           <div class="d-none" id="goLiveErrorMessage">
-                               <div class="text-center text-danger mb-3">Error subscribing.</div>
-                           </div>
-                       </form>
-                   </div>
-                   <div class="d-none" id="goLiveSuccessBody">
-                       Thank you. We have your email address and we will get back to you shortly...
-                   </div>
+  <div class="modal fade" class="goLiveModal" tabindex="-1" role="dialog" aria-labelledby="goLiveModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="goLiveModal">Go Live!</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                      <!-- <span aria-hidden="true">&times;</span> -->
+                  </button>
+              </div>
+              <div class="modal-body">
 
 
 
 
-               </div>
-               <!-- <div class="modal-footer">
-                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                 <button type="button" class="btn btn-primary">Save changes</button>
-               </div> -->
-           </div>
-       </div>
-   </div>
+                  <div id="goLiveFormBody">
+                      Enter your email address and we will get back to you with next steps.
+                      <form id="goLiveSubscribeForm" class="mt-3" action="#" method="post" onsubmit="submitGoLiveSubscribeForm(event)" data-sb-form="">
+                          <div class="row">
+                              <div class="col">
+                                  <input class="form-control" id="goLiveSubscribeEmailAddress" name="email" type="email" placeholder="Email Address" data-sb-validations="required,email">
+                                  <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:required">Email Address is required.</div>
+                                  <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:email">Email Address is not valid.</div>
+                              </div>
+                              <div class="col-auto"><button class="btn btn-primary blue-button" class="submitButton" type="submit">Subscribe</button>
+                              </div>
+                          </div>
+                          <div class="d-none" id="goLiveSuccessMessage">
+                              <div class="text-center mb-3">
+                                  <div class="fw-bolder">Subscribed Successfully!</div>
+                              </div>
+                          </div>
+                          <div class="d-none" id="goLiveErrorMessage">
+                              <div class="text-center text-danger mb-3">Error subscribing.</div>
+                          </div>
+                      </form>
+                  </div>
+                  <div class="d-none" id="goLiveSuccessBody">
+                      Thank you. We have your email address and we will get back to you shortly...
+                  </div>
+
+
+
+
+
+
+
+
+              </div>
+              <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div> -->
+          </div>
+      </div>
+  </div>
 </main>
+
+
 
 
 <!-- Testimonials-->
 <section class="testimonials text-center bg-light">
-   <div class="container slideanim slide">
-       <h2 class="mb-5">What people are saying...</h2>
-       <div class="row">
-           <div class="col-lg-4">
-               <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                   <div class="container rounded" element-id="testimonials_0_name">
-                       <h5 id="testimonials_0_name">Jack Sibire</h5>
-                       <h7 id="testimonials_0_name">Lean Specialist</h7>
-                       <div class="stars" data-rating="4">
-                           <i class="bi bi-star-fill"></i>
-                           <i class="bi bi-star-fill"></i>
-                           <i class="bi bi-star-fill"></i>
-                           <i class="bi bi-star-fill"></i>
-                           <i class="bi bi-star"></i>
-                       </div>
-                       <p id="testimonials_0_content" class="font-weight-light mb-0">"As an Education Blogger, I am always looking for new and innovative ways to engage my audience."</p>
-                   </div>
-               </div>
-           </div>
-           <div class="col-lg-4">
-               <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                   <div class="container rounded" element-id="testimonials_1_name">
-                       <h5 id="testimonials_1_name">Adele Mouse</h5>
-                       <h7 id="testimonials_1_name">Product Manager, Mousio</h7>
-                       <div class="stars" data-rating="4">
-                           <i class="bi bi-star-fill"></i>
-                           <i class="bi bi-star-fill"></i>
-                           <i class="bi bi-star-fill"></i>
-                           <i class="bi bi-star-fill"></i>
-                           <i class="bi bi-star-fill"></i>
-                       </div>
-                       <p id="testimonials_1_content" class="font-weight-light mb-0">"Their articles on AI-driven Agile and Lean education have been incredibly informative."</p>
-                   </div>
-               </div>
-           </div>
-           <div class="col-lg-4">
-               <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                   <div class="container rounded" element-id="testimonials_2_name">
-                       <h5 id="testimonials_2_name">Ben Clock</h5>
-                       <h7 id="testimonials_2_name">CTO, Clockwork</h7>
-                       <div class="stars" data-rating="5">
-                           <i class="bi bi-star-fill"></i>
-                           <i class="bi bi-star-fill"></i>
-                           <i class="bi bi-star-fill"></i>
-                           <i class="bi bi-star-fill"></i>
-                           <i class="bi bi-star"></i>
-                       </div>
-                       <p id="testimonials_2_content" class="font-weight-light mb-0">"AI-driven Agile and Lean education is here to stay!"</p>
-                   </div>
-               </div>
-           </div>
-       </div>
-   </div>
+  <div class="container slideanim slide">
+      <h2 class="mb-5">What people are saying...</h2>
+      <div class="row">
+          <div class="col-lg-4">
+              <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                  <div class="container rounded" element-id="testimonials_0_name">
+                      <h5 id="testimonials_0_name">Jack Sibire</h5>
+                      <h7 id="testimonials_0_name">Lean Specialist</h7>
+                      <div class="stars" data-rating="4">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star"></i>
+                      </div>
+                      <p id="testimonials_0_content" class="font-weight-light mb-0">"As an Education Blogger, I am always looking for new and innovative ways to engage my audience."</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4">
+              <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                  <div class="container rounded" element-id="testimonials_1_name">
+                      <h5 id="testimonials_1_name">Adele Mouse</h5>
+                      <h7 id="testimonials_1_name">Product Manager, Mousio</h7>
+                      <div class="stars" data-rating="4">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                      </div>
+                      <p id="testimonials_1_content" class="font-weight-light mb-0">"Their articles on AI-driven Agile and Lean education have been incredibly informative."</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4">
+              <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                  <div class="container rounded" element-id="testimonials_2_name">
+                      <h5 id="testimonials_2_name">Ben Clock</h5>
+                      <h7 id="testimonials_2_name">CTO, Clockwork</h7>
+                      <div class="stars" data-rating="5">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star"></i>
+                      </div>
+                      <p id="testimonials_2_content" class="font-weight-light mb-0">"AI-driven Agile and Lean education is here to stay!"</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
 </section>
 
 
-           <!-- Featured Posts -->
+
+
+          <!-- Featured Posts -->
 <div class="col-md-6">
-   <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-       <div class="col p-4 d-flex flex-column position-static">
-           <strong class="d-inline-block mb-2 text-primary">World</strong>
-           <h3 class="mb-0">Featured post</h3>
-           <div class="mb-1 text-body-secondary">Nov 12</div>
-           <p class="card-text mb-auto">Get Introduced to the World of AI!</p>
-           <a href="#" class="stretched-link">Continue reading</a>
-       </div>
-       <div class="col-auto d-none d-lg-block">
-           <a href="https://ibb.co/FxNgxhr">
-               <img src="https://i.ibb.co/98zs8pD/ligthbulb.jpg" alt="ligthbulb" border="0" width="300" height="250">
-           </a>
-       </div>
-   </div>
+  <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+      <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary">World</strong>
+          <h3 class="mb-0">Featured post</h3>
+          <div class="mb-1 text-body-secondary">Nov 12</div>
+          <p class="card-text mb-auto">Get Introduced to the World of AI!</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+      </div>
+      <div class="col-auto d-none d-lg-block">
+          <a href="https://ibb.co/FxNgxhr">
+              <img src="https://i.ibb.co/98zs8pD/ligthbulb.jpg" alt="ligthbulb" border="0" width="300" height="250">
+          </a>
+      </div>
+  </div>
 </div>
+
 
 <!-- Begin Mailchimp Signup Form -->
 <head>
-    <style>
-        .call-to-action {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 40vh;
-        }
-        #mc_embed_signup {
-            background: #fff;
-            clear: left;
-            font: 14px Helvetica,Arial,sans-serif;
-            width: 400px;
-        }
-        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-    </style>
+   <style>
+       .call-to-action {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           min-height: 40vh;
+       }
+       #mc_embed_signup {
+           background: #fff;
+           clear: left;
+           font: 14px Helvetica,Arial,sans-serif;
+           width: 400px;
+       }
+       /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+   </style>
+
 
 <section class="call-to-action text-white text-center" style="background: url('https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=Mnw0MjkyMDl8MHwxfHNlYXJjaHw4fHxSZWFsJTIwRXN0YXRlfGVufDB8fHx8MTY4MTM4Mjg3Mg&amp;ixlib=rb-4.0.3&amp;q=85') no-repeat center center" id="signup">
 <div style="text-align: center;">
-    <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-        #mc_embed_signup{background:#fff; clear:left; font:25px Helvetica,Arial,sans-serif;  width:800px;}
-        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-    </style>
-    <div id="mc_embed_signup">
-        <form action="https://njit.us14.list-manage.com/subscribe/post?u=aa7ca102b4c89f92b883ad462&amp;id=ca8ca63fcb&amp;f_id=00b084e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-            <div id="mc_embed_signup_scroll">
-            <h2>Sign Up for Our Newsletter!</h2>
-            <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-    <div class="mc-field-group">
-        <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-    </label>
-        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
-        <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
-    </div>
-        <div id="mce-responses" class="clear foot">
-            <div class="response" id="mce-error-response" style="display:none"></div>
-            <div class="response" id="mce-success-response" style="display:none"></div>
-        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_aa7ca102b4c89f92b883ad462_ca8ca63fcb" tabindex="-1" value=""></div>
-            <div class="optionalParent">
-                <div class="clear foot">
-                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-                    <p class="brandingLogo"><a href="http://eepurl.com/iq4ddc" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a></p>
-                </div>
-            </div>
-        </div>
-    </form>
-    </div>
-    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS
+   <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
+   <style type="text/css">
+       #mc_embed_signup{background:#fff; clear:left; font:25px Helvetica,Arial,sans-serif;  width:800px;}
+       /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+          We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+   </style>
+   <div id="mc_embed_signup">
+       <form action="https://njit.us14.list-manage.com/subscribe/post?u=aa7ca102b4c89f92b883ad462&amp;id=ca8ca63fcb&amp;f_id=00b084e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+           <div id="mc_embed_signup_scroll">
+           <h2>Sign Up for Our Newsletter!</h2>
+           <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+   <div class="mc-field-group">
+       <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+   </label>
+       <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
+       <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+   </div>
+       <div id="mce-responses" class="clear foot">
+           <div class="response" id="mce-error-response" style="display:none"></div>
+           <div class="response" id="mce-success-response" style="display:none"></div>
+       </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+       <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_aa7ca102b4c89f92b883ad462_ca8ca63fcb" tabindex="-1" value=""></div>
+           <div class="optionalParent">
+               <div class="clear foot">
+                   <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                   <p class="brandingLogo"><a href="http://eepurl.com/iq4ddc" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a></p>
+               </div>
+           </div>
+       </div>
+   </form>
+   </div>
+   <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS
 <!-- End -->
 
+
 <!-- Footer -->
-    < div
-    className = "container" >
-        < footer
-    className = "row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top" >
-        < div
-    className = "col mb-3" >
-        < a
-    href = "/"
-    className = "d-flex align-items-center mb-3 link-body-emphasis text-decoration-none" >
-        < svg
-    className = "bi me-2"
-    width = "40"
-    height = "32" > < use
-    xlink:href = "#bootstrap" > < /use></s
-    vg >
-    < /a>
-    <p className="text-body-secondary"> 2023 © MyWebClass</p>
-    <p>All rights reserved.</p>
+   < div
+   className = "container" >
+       < footer
+   className = "row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top" >
+       < div
+   className = "col mb-3" >
+       < a
+   href = "/"
+   className = "d-flex align-items-center mb-3 link-body-emphasis text-decoration-none" >
+       < svg
+   className = "bi me-2"
+   width = "40"
+   height = "32" > < use
+   xlink:href = "#bootstrap" > < /use></s
+   vg >
+   < /a>
+   <p className="text-body-secondary"> 2023 © MyWebClass</p>
+   <p>All rights reserved.</p>
 </div>
 
 
-    <div className="col mb-3">
 
 
-    </div>
+   <div className="col mb-3">
 
 
-    <div className="col mb-3">
-        <h5>Section</h5>
-        <ul className="nav flex-column">
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Home</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">About Us</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Contact</a></li>
-        </ul>
-    </div>
 
 
-    <div className="col mb-3">
-        <h5>Section</h5>
-        <ul className="nav flex-column">
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Facebook</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Instagram</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">LinkedIn</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Twitter</a></li>
-        </ul>
-    </div>
+   </div>
 
 
-    <div className="col mb-3">
-        <h5>Section</h5>
-        <ul className="nav flex-column">
- <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Privacy Policy</a></li>
-                       <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Terms of Service</a></li>
-                   </ul>
-               </div>
-           </footer>
-       </div>
-           <!-- Bootstrap core JS-->
-           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-           <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-           <script>
-               $(document).ready(function(){
-                   $(window).scroll(function() {
-                       $(".slideanim").each(function(){
-                           var pos = $(this).offset().top;
 
 
-                           var winTop = $(window).scrollTop();
-                           if (pos < winTop + 600) {
-                               $(this).addClass("slide");
-                           }
-                       });
-                   });
-               })
-           </script>
-       </body>
+   <div className="col mb-3">
+       <h5>Section</h5>
+       <ul className="nav flex-column">
+           <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Home</a></li>
+           <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">About Us</a></li>
+           <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Contact</a></li>
+       </ul>
+   </div>
+
+
+
+
+   <div className="col mb-3">
+       <h5>Section</h5>
+       <ul className="nav flex-column">
+           <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Facebook</a></li>
+           <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Instagram</a></li>
+           <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">LinkedIn</a></li>
+           <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Twitter</a></li>
+       </ul>
+   </div>
+
+
+
+
+   <div className="col mb-3">
+       <h5>Section</h5>
+       <ul className="nav flex-column">
+<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Privacy Policy</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Terms of Service</a></li>
+                  </ul>
+              </div>
+          </footer>
+      </div>
+          <!-- Bootstrap core JS-->
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+          <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+          <script>
+              $(document).ready(function(){
+                  $(window).scroll(function() {
+                      $(".slideanim").each(function(){
+                          var pos = $(this).offset().top;
+
+
+
+
+                          var winTop = $(window).scrollTop();
+                          if (pos < winTop + 600) {
+                              $(this).addClass("slide");
+                          }
+                      });
+                  });
+              })
+          </script>
+      </body>
 </html>
