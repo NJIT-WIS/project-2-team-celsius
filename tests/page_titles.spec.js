@@ -22,7 +22,10 @@ pages.forEach((page) => {
     const pageUrl = `${config.use.baseURL}${page.path}`;
 
     const expectedTitle = page.title;
+    // update expected title for the "/blog" page
+    if (page.path === "/blog") {
+      expectedTitle = "MyWebClass.org | Blog";
+    }
     await checkPageTitle(pageUrl, expectedTitle);
   });
 });
-

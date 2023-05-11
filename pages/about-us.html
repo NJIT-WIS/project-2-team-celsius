@@ -1,89 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <title>My WebClass</title>
+  <!-- Bootstrap icons-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css">
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link rel="stylesheet" href="../styles/basic.css">
+  <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-264164859-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-264164859-1');
+    </script>
+    </script>
+  <!-- Custom Style -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Star ratings CSS -->
+  <style>
+      .star-rating {
+          font-size: 1.5rem;
+          color: #FFC107;
+          display: inline-block;
+          vertical-align: middle;
+      }
+      .star-rating input[type="radio"] {
+          display: none;
+      }
+      .star-rating label {
+          display: inline-block;
+          cursor: pointer;
+          padding: 0 0.25rem;
+      }
+      .star-rating label:before {
+          content: "\2605";
+      }
+      .star-rating input[type="radio"]:checked ~ label:before {
+          content: "\2605";
+      }
+  </style>
+</head>
+
+<!-- Navigation-->
+<header class="p-3 text-bg-dark">
+  <div class="container position-relative">
+      <div class="d-flex flex-wrap align-items-center justify-content-between justify-content-lg-start">
+          <a href="https://ibb.co/c6DN9xp">
+              <img src="https://i.ibb.co/R3zCK7M/mywebclass.jpg" alt="mywebclass" width="300" height="200">
+          </a>
+
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="index.html" class="nav-link px-2 text-gray">Home</a></li>
+              <li><a href="about-us.html" class="nav-link px-2 text-gray">About Us</a></li>
+              <li><a href="blog.html" class="nav-link px-2 text-gray">Pricing</a></li>
+              <li><a href="contact_us.html" class="nav-link px-2 text-gray">Contact</a></li>
+          </ul>
+
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+              <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+          </form>
+
+          <div class="text-end d-flex justify-content-end mt-3">
+              <button type="button" class="btn btn-outline-light me-2">Login</button>
+              <button type="button" class="btn btn-warning">Sign-up</button>
+          </div>
+      </div>
+  </div>
+</header>
+
+<!-- Masthead-->
+<header>
     <meta charset="UTF-8">
     <title>Welcome to MyWebClass.org - Pioneering the Future of Education</title>
     <style>
         /* Add styles for formatting */
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            font-size: 16px;
-            line-height: 1.5;
-            color: #333;
-        }
-        header {
-            background-color: #f5f5f5;
-            padding: 20px;
-            text-align: center;
-            border-bottom: 1px solid #ddd;
-        }
-        nav {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-        }
-        nav ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-        }
-        nav li {
-            margin: 0 10px;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            font-weight: bold;
-            text-transform: uppercase;
-        }
-        nav a:hover {
-            color: #ddd;
-        }
-        main {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 0 20px;
-        }
-        h1 {
-            font-size: 36px;
-            margin-top: 0;
-        }
-        h2 {
-            font-size: 24px;
-            margin-top: 0;
-        }
-        p {
-            margin: 0 0 20px;
-        }
-        blockquote {
-            margin: 0 0 20px;
-            padding: 10px 20px;
-            background-color: #f5f5f5;
-            border-left: 5px solid #ddd;
-        }
-        blockquote p {
-            margin: 0;
-        }
     </style>
-</head>
+</header>
 <body>
-    <header>
-        <h1>Welcome to MyWebClass.org</h1>
-        <h2>Pioneering the Future of Education</h2>
-    </header>
-    <main>
-        <h1>About Us</h1>
-        <p>Dear friends, colleagues, and fellow educators, we invite you to join us on an essential journey – the transformation of education for the AI-driven world. As we navigate the challenges and opportunities of the Fourth Industrial Revolution, it is crucial to reimagine our educational practices and adopt a new paradigm that empowers our students with the knowledge and skills they need to flourish in an increasingly complex and interconnected world.</p>
-        <p>The existing factory school model, a legacy of the Industrial Revolution, is no longer adequate for preparing students for the demands and opportunities presented by AI and other emerging technologies. According to the World Economic Forum, 65% of children entering primary school today will work in jobs that don't exist yet. We must shift our focus towards nurturing creativity, adaptability, and collaboration – essential skills for success in the AI-driven world.</p>
-        <p>MyWebClass.org, a foundation committed to revolutionizing education by incorporating Agile and Lean principles into the classroom, is at the forefront of this transformation. Our mission encompasses conducting research on effective strategies, developing resources and tools, offering professional development opportunities, and collaborating with schools and educators to foster a culture of continuous improvement, collaboration, and adaptability.</p>
-        <p>A study by the American Institutes for Research (2012) found that schools adopting project-based learning approaches saw significant gains in student achievement. Similarly, a case study published in the Journal of Applied Instructional Design (2015) demonstrated that the integration of Agile principles in a K-12 setting led to increased student engagement, improved collaboration, and enhanced problem-solving skills.</p>
-        <p>These examples attest to the power of incorporating Agile and Lean principles into educational approaches. As educators, we must also address the cognitive and mental health challenges faced by our students in this rapidly changing world. The Bureau of Labor Statistics reports a growing demand for professionals skilled in AI, data science, and other emerging fields. By incorporating Agile and Lean principles in the classroom, we can support students' mental health by cultivating resilience, adaptability, and a sense of accomplishment.</p>
-        <p>MyWebClass.org plays a pivotal role in driving this paradigm shift by providing educators with the necessary resources, tools, frameworks, and professional development opportunities. Through collaboration with schools and educators, MyWebClass.org aspires to create a network of professionals dedicated to revolutionizing education and preparing students for success in the AI-driven world. To fully grasp the need for this paradigm shift, it is vital to examine the historical and cultural context that has shaped our current educational system. As societal expectations change and the skills required for success evolve, we must embrace a new educational paradigm.</p>
-        <p>In conclusion, embracing change in education and transcending the factory school model is essential for preparing students for the challenges and opportunities of the AI-driven world. Organizations like MyWebClass.org play a crucial role in driving this paradigm shift by incorporating Agile and Lean principles into the classroom. By working together, we can create an environment where students are better prepared for the future.</p>
-    <main>
-</body>
+<header>
+  <div class="container position-relative">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-lg-12">
+        <div class="text-center text-black">
+          <!-- Page heading-->
+          <h1>About Us</h1>
+          <div class="container rounded" element-id="headline" style="height: 500px; position: relative;">
+            <p style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 20px; text-align: center;">As we navigate the challenges and opportunities of the Fourth Industrial Revolution, it is crucial to reimagine our educational practices and adopt a new paradigm that empowers our students with the knowledge and skills they need to flourish in an increasingly complex and interconnected world.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<header>
+  <div class="container position-relative">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-lg-12">
+        <div class="text-center text-black">
+          <!-- Page heading-->
+          <h1>Our Mission</h1>
+          <div class="container rounded" element-id="headline" style="height: 500px; position: relative;">
+            <p style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 20px; text-align: center;">Our mission is to revolutionize education by incorporating Agile and Lean principles into the classroom, enabling students to develop essential skills such as creativity, adaptability, and collaboration.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
 </html>
