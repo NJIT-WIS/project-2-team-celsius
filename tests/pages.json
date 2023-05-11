@@ -2,11 +2,19 @@
     "pages": [
       {
         "path": "/",
-        "title": "MyWebClass.org"
+        "title": ""
       },
       {
-        "path": "/about",
-        "title": "MyWebClass.org | About"
+        "path": "/about-us.html",
+        "title": ""
+      },
+      {
+        "path": "/blog.html",
+        "title": ""
+      },
+      {
+        "path": "/contact_us.html",
+        "title": ""
       }
     ]
 }
