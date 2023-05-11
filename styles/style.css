@@ -1,0 +1,50 @@
+/* Star ratings */
+
+.star-ratings {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: center;
+}
+
+.star-ratings input[type="radio"] {
+  display: none;
+}
+
+.star-ratings input[type="radio"] + label {
+  color: #f2b01e;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.star-ratings input[type="radio"] + label:before {
+  content: "\2605";
+  padding: 5px;
+  font-size: 30px;
+  display: inline-block;
+}
+
+.star-ratings input[type="radio"]:checked + label:before {
+  content: "\2605";
+  padding: 5px;
+  font-size: 30px;
+  display: inline-block;
+  color: #f2b01e;
+}
+
+.star-ratings input[type="radio"]:hover + label:before {
+  content: "\2605";
+  padding: 5px;
+  font-size: 30px;
+  display: inline-block;
+  color: #f2b01e;
+}
+
+.star-ratings .star-ratings-text {
+  color: #555;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  margin-top: 10px;
+}
