@@ -1,3 +1,10 @@
+.divider {
+  width: 50%;
+  height: 1px;
+  margin: 20px auto;
+  background-color: #ccc;
+}
+
 /* Star ratings */
 
 .star-ratings {
